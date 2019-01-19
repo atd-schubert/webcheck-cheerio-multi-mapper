@@ -1,10 +1,10 @@
-# webcheck-cheerio-mapper
+# webcheck-cheerio-multi-mapper
 [Webcheck](https://github.com/atd-schubert/node-webcheck) plugin map data with cheerio multiple times on same resource
 
 ## How to install
 
 ```bash
-npm install --save @atd/webcheck-cheerio-mapping
+npm install --save webcheck-cheerio-multi-mapping
 ```
 
 ## How to use
@@ -14,7 +14,7 @@ npm install --save @atd/webcheck-cheerio-mapping
 
 'use strict';
 
-var MappingPlugin = require('@atd/webcheck-cheerio-multi-mapper');
+var MappingPlugin = require('webcheck-cheerio-multi-mapper');
 
 var Webcheck = require('webcheck');
 
